@@ -1,68 +1,38 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0%;
-    text-decoration: none;
-    color: green;
-    font-size: larger;
-    font-weight: 800;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-.nav-item1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px 5px 5px 5px;
-    gap: 15px;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 200;
+.header{
+    height: 80px;
 }
-.dopdown .nav-item1 .nav-link dropdown-toggle{
-    font-weight: 200;
-    text-decoration: none;
+.header .c .navbar-brand img{
+    height: 5vh;
 }
-.int{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
+.but{
+    margin-left: 60px;
 }
-.add ul li{
-    font-weight: 300;
-    font-size: medium;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
+
+.list{
+    margin-left: 500px;
+    gap: 15px;
 }
-.d-flex form input{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.list li:hover{
+    background: #eaeaea;
 }
-body{
-    background: 
-    url('https://th.bing.com/th/id/R.9a308e0a84b73371c5df965f4f91ffae?rik=KDAZsfjh1Dy0nw&riu=http%3a%2f%2fcdn.spacetelescope.org%2farchives%2fimages%2fscreen%2fheic1313b.jpg&ehk=1B%2fP3Y9m0umQWpsdHdqzADm9K%2bun5Rb3Z0pT%2bZr%2fORM%3d&risl=&pid=ImgRaw&r=0') no-repeat center;
-    background-size: cover; 
+
+.list li {
+    border-radius: 3px;
 }
-.main h1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    margin:150px 500px;
-    font-size: 60px;
-    font-weight: 700;
-}
-.main p{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    color: #fff4a3;
-    font-size: 23px;
-    margin: 10px 460px;
-    margin-top: 0%; 
+@media screen and (max-width: 430px){
+    .list {
+        margin-left: 0;
+    }
+    .btn-wr{
+        margin-left: -100px;
+    }
 }
